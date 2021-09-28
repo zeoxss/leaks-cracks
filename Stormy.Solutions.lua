@@ -1,3 +1,7 @@
+if game.CoreGui:FindFirstChild("Stormy") then
+    game.CoreGui.Stormy:Destroy()
+end
+
 getgenv().values = {}
 local library = {}
 local Signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/Quenty/NevermoreEngine/version2/Modules/Shared/Events/Signal.lua"))()
@@ -4506,7 +4510,7 @@ end
 
 RunService.RenderStepped:Wait()
 
-local gui = library:New("Stormy.solutions")
+local gui = library:New("Stormy")
 local legit = gui:Tab("legit")
 local rage = gui:Tab("rage")
 local visuals = gui:Tab("visuals")
