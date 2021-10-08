@@ -206,8 +206,8 @@ local x = {}
 local y = {}
 local z
 local A = {
-    name = "nixus cb",
-    darkmode = false,
+    name = "nixus",
+    darkmode = true,
     togglekey = Enum.KeyCode.Insert,
     [1] = {
         name = "Rage",
